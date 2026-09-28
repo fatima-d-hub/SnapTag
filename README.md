@@ -1,10 +1,10 @@
-# 🎨 SnapTag — Application JavaFX de Traitement d’Images
+# SnapTag — Application JavaFX de Traitement d’Images
 
 **SnapTag** est une application Java développée avec JavaFX, dédiée au traitement et à la transformation d’images. Elle permet à l’utilisateur d’appliquer différents filtres visuels, de sécuriser ses images, de gérer l’historique des modifications, et de stocker les métadonnées dans une base de données locale.
 
 ---
 
-## 🎯 Objectif du projet
+##  Objectif du projet
 
 L’objectif principal est de concevoir une application graphique intuitive qui permet :
 
@@ -16,22 +16,22 @@ L’objectif principal est de concevoir une application graphique intuitive qui 
 
 ---
 
-## ✨ Fonctionnalités principales
+## Fonctionnalités principales
 
-### 🔧 Traitements d’images
+###  Traitements d’images
 
 - Filtres intégrés :
-  - 🔳 Niveaux de gris (GrayScaleFilter)
-  - ☕ Effet sépia (SepiaFilter)
-  - 🧠 Détection de contours (SobelFilter)
-  - 🎨 Inversion des couleurs (SwapRGBFilter)
+  - Niveaux de gris (GrayScaleFilter)
+  - Effet sépia (SepiaFilter)
+  - Détection de contours (SobelFilter)
+  - Inversion des couleurs (SwapRGBFilter)
 
 - Gestion de l’image :
-  - 🧩 Historique des modifications
-  - 🗂️ Restauration d’état précédent
-  - 🔒 Chiffrement et déchiffrement (ImageSecurity)
+  - Historique des modifications
+  - Restauration d’état précédent
+  - Chiffrement et déchiffrement (ImageSecurity)
 
- ## 🏗️ Architecture du projet
+ ## Architecture du projet
 
 Le projet est organisé en plusieurs couches :
 - **Interface utilisateur (JavaFX)** : fichiers `.fxml`, contrôleurs.
@@ -40,7 +40,7 @@ Le projet est organisé en plusieurs couches :
 - **Sécurité** : module de chiffrement/déchiffrement des images.
 - **Historique** : chaque transformation est sauvegardée pour permettre le suivi ou l’annulation.
 
-## 📂 Arborescence du projet
+## Arborescence du projet
 
 Projet/ <br>
 ├── monDB/                            ← Répertoire contenant la base de données Apache Derby  <br>
@@ -72,12 +72,12 @@ Projet/ <br>
 ├── mvnw / mvnw.cmd                   ← Scripts Maven Wrapper <br>
 └── README.md                         ← Fichier de documentation <br>
 
-## 🖼️ Aperçu
+## Aperçu
 
 # ![Fatimatou](https://github.com/Fatimatou-DIALLO-87/SnapTag/blob/master/Snaptag.gif)
 
 
-## 🧰 Technologies utilisées
+## Technologies utilisées
 
 - **Java 22**
 - **JavaFX + FXML + CSS**
